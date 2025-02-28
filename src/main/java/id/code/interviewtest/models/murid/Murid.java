@@ -54,4 +54,13 @@ public class Murid {
     public void setTimeCreate(Date timeCreate) {
         this.timeCreate = timeCreate;
     }
+
+    @Override
+    public String toString() {
+        return "Murid{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", timeCreate=" + timeCreate +
+                '}';
+    }
 }

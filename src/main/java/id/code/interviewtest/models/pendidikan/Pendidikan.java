@@ -65,4 +65,14 @@ public class Pendidikan {
     public void setTimeCreate(Date timeCreate) {
         this.timeCreate = timeCreate;
     }
+
+    @Override
+    public String toString() {
+        return "Pendidikan{" +
+                "id=" + id +
+                ", idMurid=" + idMurid +
+                ", status='" + status + '\'' +
+                ", timeCreate=" + timeCreate +
+                '}';
+    }
 }
